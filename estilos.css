@@ -164,6 +164,24 @@ border-left: 20%;
 
 
 
+/* CONTACTO */
+
+.form_contacto {
+
+
+    background-color: brown;
+    align-items: center;
+    max-width: 700px;
+    max-height: 700px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+
+
+
 
 /* EN EL FINAL DE LA PAGINA*/
 
