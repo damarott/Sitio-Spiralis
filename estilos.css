@@ -129,6 +129,39 @@ body{
 
 
 
+/* GALERIA */
+
+.galeria {
+    border-left: 100px;
+    
+}
+
+.galeria img {
+
+    width: 15%;
+    border: 1px solid black;
+    width: 100px;
+    margin: auto;
+    margin-top: 1%;
+    
+    
+}
+
+
+
+
+.img:hover {
+
+transform: scale(5);
+max-width: 30px;
+max-height: 30px;
+border-left: 20%;
+
+
+}
+
+
+
 
 
 
@@ -181,3 +214,10 @@ body{
     width: 10%;
     margin-right: 3%;
 }
+
+
+
+
+/* MOBILE */
+
+
