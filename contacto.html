@@ -55,122 +55,69 @@
              
 <!--contacto-->
                
+<div class="form_contacto">
 
-                <div class="form_contacto">
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+     
+          <form action="enviar.js">       
 
-                    <div class="formulario">      
-                      <h1>Formulario de contacto</h1>
-                             
-                                                         
-                                <p>
-                                  <label for="nombre" class="colocar_nombre">Nombre
-                                 
-                                  </label>
-                               
-                                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio">
-                                </p>
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio"></span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
 
-                                <br>
+
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio"></span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Email.....">
+                </p>
+
+
+           
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="tel">
+                </p>    
+              
                               
-                                <p>
-                                  <label for="email" class="text_email">Email
-                                   
-                                  </label>
-                                    <input type="email" name="introducir_email" id="email" required="obligatorio">
-                                </p>
-                            
-                                <br>
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio"></span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="asunto">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio"></span>
+                  </label>                     
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="comentario..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
 
-                                <p>
-                                  <label for="telefone" class="colocar_telefono">Teléfono
-                                  </label>
-                                    <input type="tel" name="introducir_telefono" id="telefono">
-                                </p>    
-                              <br>
-                                                       
-                                                            
-                                <p>
-                                  <label for="mensaje" class="colocar_mensaje">Mensaje
-                                  
-                                  </label>                     
-                                        
-                                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje">
-
-                                                    </textarea> 
-                                                </p>          
-                                        
-                                                
-
-
-                                <p>
-                                    <label for="especialidades" class="poner_especialidades"> Especialidades
-
-                                    </label>
-
-                                    <select>
-
-                                    <option>Consultorio</option>
-                                    <option>Otros</option>
-                                
-                                </select>
-                                
-                                    <datalist id="especialidades">
-
-                                        <option>Consultorio</option>
-                                        <option>Otros</option>
-                                       
-                                    
-                                    </datalist>
-                                    
-                                    <br>
-
-
-                                </p>
-                                                <br>
-                                                <br>
-                                                <br>
-                                                
-
-                                        
-                                              
-
-                                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-                
-                                
-                            
-                          </form>
-                    </div>  
-                  </div>
-                
+                <p class="aviso">
+                  <span class="obligatorio">  </span>
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          
 
 
 
@@ -180,7 +127,7 @@
             <div class="img-texto">
                 <img src="./imagenes/Consultorio/1.jpeg">
 
-                <h1>CONTACTO</h1>
+                <h1 class="losh1">CONTACTO</h1>
 
             </div>
             
@@ -211,6 +158,10 @@
         </div>
         
     </footer>
+
+
+
+    <script src="funciones.js"></script>
 
 </body>
 </html>
